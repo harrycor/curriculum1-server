@@ -1,0 +1,102 @@
+$theme-colors: (
+  "primary": #ff7824,
+  "secondary": rgb(0, 0, 0),
+);
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.gradeOf3 {
+  color: black;
+  background-color: lightgreen;
+}
+
+.gradeOf2 {
+  color: black;
+  background-color: orange;
+}
+
+.gradeOf1 {
+  color: black;
+  background-color: yellow;
+}
+
+.gradeOfIncorrect {
+  color: black;
+  background-color: red;
+}
+
+.notGradeable {
+  background-color: black;
+}
+
+.buttonThatLooksLikeALink {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+td {
+  white-space: pre-line;
+}
+
+// spinner
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.grade-table-row > td > div {
+  height: 9vh;
+  overflow-y: auto;
+}
+.grade-table-header-row > th > div {
+  height: 9vh;
+  overflow-y: auto;
+}
+
+.grade-table-row > td {
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+}
+.grade-table-header-row > th {
+  color: white;
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+}
+
+.grade-table-header-row {
+  height: 10vh;
+}
+
+.grade-table-header-row:nth-child(1) th {
+  background: orange;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: black;
+}
+
+.wrestler-items-displayer-div {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  // background-color: hsla(0,0%,20%,0);
+  background-color: black;
+  position: fixed;
+  overflow-y: scroll;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+

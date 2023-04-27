@@ -1,0 +1,21 @@
+# Routes
+
+- Create Chat room*
+- Update chat room status*
+    - Must be creator*
+- Invite People to the chat room* 
+    - If chat room is shareable anyone can do this otherwise *Must be creator** 
+- Make chats*
+- load all chats in a chatroom if you are a part of it*
+- See chatrooms that you are a part of*
+- see pending chat invites*
+- accept or decline pending chat invites*
+- see all users in a chatroom*
+- leave a chat room*
+- delete a chat room*
+
+
+
+
+
+

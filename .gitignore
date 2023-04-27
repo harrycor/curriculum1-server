@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# production bundles
+dist/
+public/js/app.js
+
+
+package-lock.json
+
+#environment variables
+.env
+
+#harry
+**/.DS_Store
+harryNotes/
